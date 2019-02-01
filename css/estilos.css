@@ -10,10 +10,10 @@ text-decoration:none;
 color:white;
 }
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
-#catalogo{
+#portafolio{
     width:960px;
     margin:auto;
     clear: both;
@@ -33,15 +33,17 @@ header{
     margin:auto;
     
     }
-    #logotipo{
+    #nombre{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
         float:left;
-        width:80px;
-        padding: 10px 0px;
+        width:100px;
+        padding: 20px 0px;
         
     }
     header #subheader nav{
     float:left;
-    width:880px;
+    width:860px;
     padding: 30px 0px;
     text-align: right;
     
@@ -49,20 +51,15 @@ header{
     }
     header #subheader nav ul li{
     display:inline;
-    
-    
     }
+
+
     header #subheader nav ul li a{
-    font-size: 18px;
-    padding: 10px 10px;
-    border-radius: 2px;
-    -moz-border-radius: 2px;
-    -webkit-border-radius: 2px;
-    
-    
+        font-size: 18px;
+        padding: 10px 10px;
+        border-radius: 2px;
     }
     header #subheader nav ul li a:hover{
-        color:white;
-        background-color: green;
-    
+        color:black;
+        background-color: blue;
     }
