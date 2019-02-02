@@ -24,8 +24,6 @@ header{
     float:left;
     background-color: black;
     box-shadow: 0px 3px 5px blue;
-    position:fixed;
-    margin-bottom:20px;
     }
     
     #subheader{
@@ -34,11 +32,11 @@ header{
     
     }
     #nombre{
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 20px;
+        font-family: fantasy;
+        font-size: 25px;
         float:left;
         width:100px;
-        padding: 20px 0px;
+        padding: 10px 0px;
         
     }
     header #subheader nav{
@@ -74,29 +72,80 @@ header{
         clear: both;
     }
     #foto{
-        width:400px;
-        padding: 20px 0px;
+        width:300px;
+        padding: 30px 10px;
         float: left;
     }
 
     #aboutme{
+        width:900;
         margin: 0px 0px 20px;
-        padding: 30px 0px;
+        padding: 30px 10px;
         text-align: justify;
         position:relative;
         left:20px;
     }
 
-    #aboutme h1{
+    h1{
      color:white;   
-     font-family: fantasy;
+     font-family: Arial, Helvetica, sans-serif;
      font-size: 40px;   
      text-align: center;
     }
 
-    #aboutme p{
+    p{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;    
+    font-size: 20px;  
+    text-align: justify;
+    padding: 10px;
+
+    }
+
+    #dos{
+        margin: 20px 0px 0px 0px;
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    #tres{
+        margin: 20px 0px 0px 0px;
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .grafico {
+        position: relative; 
+        width: 200px;
+        border: solid white;
+        padding: 2px;
+        }
+        .grafico .barra {
+        display: block;
+        position: relative;
+        background: darkblue;
+        text-align: center;
+        color: #333;
+        height: 2em;
+        line-height: 2em;
+        }
+        .grafico .barra span {
+        position: absolute; left: 1em;
+        }
+    
+    footer{
+        margin: 20px 0px 0px 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+    }
+    #sombra{
+        box-shadow: 0px 3px 5px blue;
     }
 
     
